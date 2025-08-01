@@ -92,6 +92,24 @@ p, a, h1, h2, h3, h4, h5, label, button {
   justify-content: center;
 }
 
+.MuiInputBase-root {
+    color: white !important;
+    background-color: black !important;
+  }
+
+  .MuiInputBase-input {
+    color: white !important;
+    background-color: transparent !important;
+  }
+
+  .MuiFormLabel-root {
+    color: white !important;
+  }
+  
+  .MuiFormHelperText-root {
+    color: white !important;
+  }
+
 .light-mode {
   background-color: #f8f9fa;
 
@@ -144,7 +162,27 @@ p, a, h1, h2, h3, h4, h5, label, button {
   .flex-chips .chip-title {
     color: #0d1116;
   }
+
+  .MuiInputBase-root {
+    color: #0d1116 !important;
+    background-color: white !important;
+  }
+
+  .MuiInputBase-input {
+    color: #0d1116 !important;
+    background-color: transparent !important;
+  }
+
+  .MuiFormLabel-root {
+    color: #0d1116 !important;
+  }
+  
+  .MuiFormHelperText-root {
+    color: #0d1116 !important;
+  }
 }
+
+
 
 @media screen {
   @media (max-width: 768px) {
