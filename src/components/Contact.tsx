@@ -11,19 +11,21 @@ function Contact() {
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [message, setMessage] = useState<string>('');
-
+  
   const [nameError, setNameError] = useState<boolean>(false);
   const [emailError, setEmailError] = useState<boolean>(false);
   const [messageError, setMessageError] = useState<boolean>(false);
+
+  setNameError(name === '');
+  setEmailError(email === '');
+  setMessageError(message === '');
 
   const form = useRef();
 
   /*const sendEmail = (e: any) => {
     e.preventDefault();
 
-    setNameError(name === '');
-    setEmailError(email === '');
-    setMessageError(message === '');
+    
 
      Uncomment below if you want to enable the emailJS */
 
