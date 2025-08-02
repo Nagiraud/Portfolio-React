@@ -11,21 +11,17 @@ function Contact() {
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [message, setMessage] = useState<string>('');
-  
-  const [nameError, setNameError] = useState<boolean>(false);
-  const [emailError, setEmailError] = useState<boolean>(false);
-  const [messageError, setMessageError] = useState<boolean>(false);
 
-  setNameError(name === '');
-  setEmailError(email === '');
-  setMessageError(message === '');
+  
 
   const form = useRef();
 
   /*const sendEmail = (e: any) => {
     e.preventDefault();
 
-    
+    setNameError(name === '');
+    setEmailError(email === '');
+    setMessageError(message === '');
 
      Uncomment below if you want to enable the emailJS */
 
@@ -78,8 +74,8 @@ function Contact() {
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
-                error={nameError}
-                helperText={nameError ? "Please enter your name" : ""}
+               // error={nameError}
+               // helperText={nameError ? "Please enter your name" : ""}
               />
               <TextField
                 required
@@ -90,8 +86,8 @@ function Contact() {
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
-                error={emailError}
-                helperText={emailError ? "Please enter your email or phone number" : ""}
+               // error={emailError}
+               // helperText={emailError ? "Please enter your email or phone number" : ""}
               />
             </div>
             <TextField
@@ -106,8 +102,8 @@ function Contact() {
               onChange={(e) => {
                 setMessage(e.target.value);
               }}
-              error={messageError}
-              helperText={messageError ? "Please enter the message" : ""}
+              //error={messageError}
+              //helperText={messageError ? "Please enter the message" : ""}
             />
             <Button type="submit" variant="contained" endIcon={<SendIcon />}>
               Send
