@@ -18,14 +18,14 @@ function Contact() {
 
   const form = useRef();
 
-  const sendEmail = (e: any) => {
+  /*const sendEmail = (e: any) => {
     e.preventDefault();
 
     setNameError(name === '');
     setEmailError(email === '');
     setMessageError(message === '');
 
-    /* Uncomment below if you want to enable the emailJS */
+     Uncomment below if you want to enable the emailJS */
 
     // if (name !== '' && email !== '' && message !== '') {
     //   var templateParams = {
@@ -47,7 +47,7 @@ function Contact() {
     //   setEmail('');
     //   setMessage('');
     // }
-  };
+  //};
 
   return (
     <div id="contact">
