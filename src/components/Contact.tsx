@@ -63,6 +63,9 @@ function Contact() {
             className='contact-form'
             data-netlify="true"
           >
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" />
+
             <div className='form-flex'>
               <TextField
                 required
@@ -104,7 +107,7 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
+            <Button type="submit" variant="contained" endIcon={<SendIcon />}>
               Send
             </Button>
           </Box>
