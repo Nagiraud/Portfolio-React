@@ -55,6 +55,7 @@ function Contact() {
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <form name="contact" method="POST" data-netlify="true">
           <Box
             ref={form}
             component="form"
@@ -107,6 +108,7 @@ function Contact() {
               Send
             </Button>
           </Box>
+          </form>
         </div>
       </div>
     </div>
