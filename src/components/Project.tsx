@@ -34,7 +34,7 @@ function Project() {
             id: 1,
             title: "Vapeur",
             image: mock10,
-            link: "https://www.filmate.club/",
+            link: "https://github.com/Nagiraud/Vapeur",
             description: "Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.",
             contenu:"TEST",
             category: "Web"
@@ -43,7 +43,7 @@ function Project() {
             id: 2,
             title: "Symfony",
             image: mock09,
-            link: "https://yujisatojr.itch.io/highspeedchase",
+            link: "https://github.com/Nagiraud/API-Symfony",
             description: "Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.",
             contenu:"",
             category: "Web"
@@ -52,7 +52,7 @@ function Project() {
             id: 3,
             title: "ForeignGeneer",
             image: mock08,
-            link: "https://yujisatojr.itch.io/spacecraft",
+            link: "https://github.com/Nagiraud/ForeignGeneer",
             description: "Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.",
             contenu:"",
             category: "Jeux vidéo"
@@ -61,7 +61,7 @@ function Project() {
             id: 4,
             title: "3D",
             image: mock07,
-            link: "https://www.datumlearn.com/",
+            link: "https://www.artstation.com/nataxe05076",
             description: "This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.",
             contenu:"",
             category: "3D"
