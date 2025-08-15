@@ -56,6 +56,10 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 }
 
+.modal-content{
+    background-color: #0d1116;
+  }
+
 .container {
   margin-top: 64px;
   width: 100%;
@@ -75,6 +79,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
     object-fit: cover;
   }
 }
+
+
 
 .mobile-menu-top {
   display: flex;
@@ -113,6 +119,10 @@ p, a, h1, h2, h3, h4, h5, label, button {
 .light-mode {
   background-color: #f8f9fa;
 
+  .modal-content{
+    background-color: #f8f9fa;
+  }
+  
   .navigation-bar {
     background-color: #f8f9fa;
   }

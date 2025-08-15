@@ -51,8 +51,8 @@ function Contact() {
     <div id="contact">
       <div className="items-container">
         <div className="contact_wrapper">
-          <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <h1>Contactez-moi</h1>
+          <p>Vous voulez en savoir plus ? N'hésitez pas à m'envoyer un mail !</p>
           <Box
             ref={form}
             component="form"
@@ -68,8 +68,8 @@ function Contact() {
               <TextField
                 required
                 id="outlined-required"
-                label="Your Name"
-                placeholder="What's your name?"
+                label="Nom"
+                placeholder="Quelle est votre nom?"
                 value={name}
                 onChange={(e) => {
                   setName(e.target.value);
@@ -80,8 +80,8 @@ function Contact() {
               <TextField
                 required
                 id="outlined-required"
-                label="Email / Phone"
-                placeholder="How can I reach you?"
+                label="Email"
+                placeholder="Comment vous joindre?"
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
@@ -94,7 +94,7 @@ function Contact() {
               required
               id="outlined-multiline-static"
               label="Message"
-              placeholder="Send me any inquiries or questions"
+              placeholder="Votre message."
               multiline
               rows={10}
               className="body-form"
@@ -106,7 +106,7 @@ function Contact() {
               //helperText={messageError ? "Please enter the message" : ""}
             />
             <Button type="submit" variant="contained" endIcon={<SendIcon />}>
-              Send
+              Envoyer
             </Button>
           </Box>
         </div>
